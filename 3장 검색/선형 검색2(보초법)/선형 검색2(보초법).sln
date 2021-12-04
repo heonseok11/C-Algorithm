@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "선형 검색2(보초법)", "선형 검색2(보초법)\선형 검색2(보초법).vcxproj", "{1784D598-1945-4D00-A758-3F7FFC5445D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1784D598-1945-4D00-A758-3F7FFC5445D9}.Debug|x64.ActiveCfg = Debug|x64
+		{1784D598-1945-4D00-A758-3F7FFC5445D9}.Debug|x64.Build.0 = Debug|x64
+		{1784D598-1945-4D00-A758-3F7FFC5445D9}.Debug|x86.ActiveCfg = Debug|Win32
+		{1784D598-1945-4D00-A758-3F7FFC5445D9}.Debug|x86.Build.0 = Debug|Win32
+		{1784D598-1945-4D00-A758-3F7FFC5445D9}.Release|x64.ActiveCfg = Release|x64
+		{1784D598-1945-4D00-A758-3F7FFC5445D9}.Release|x64.Build.0 = Release|x64
+		{1784D598-1945-4D00-A758-3F7FFC5445D9}.Release|x86.ActiveCfg = Release|Win32
+		{1784D598-1945-4D00-A758-3F7FFC5445D9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {753A52C4-C413-4FB8-B8E8-3AE538A4477C}
+	EndGlobalSection
+EndGlobal
