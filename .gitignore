@@ -49,6 +49,9 @@
 # log
 *.tlog
 *.log
+*.vcxproj
+*.filters
+*.user
 
 # Kernel Module Compile Results
 *.mod*
