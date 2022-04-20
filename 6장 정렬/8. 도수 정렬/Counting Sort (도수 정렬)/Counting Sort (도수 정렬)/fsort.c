@@ -10,7 +10,7 @@ void fsort(int a[], int n, int max)
 	int* f = (int*)calloc(max + 1, sizeof(int));		// 누적 도수
 	int* b = (int*)calloc(n, sizeof(int));				// 작업용 배열
 
-	for (i = 0; i < n; i++) f[a[i]] ++;					// a[1]이 4 이면 f[4]++
+	for (i = 0; i < n; i++) f[a[i]]++;					// a[1]이 4 이면 f[4]++
 	for (i = 1; i <= max; i++) f[i] += f[i - 1];		// f[5]의 값이 7 이면 0~5까지 값이 7개라는 뜻이다 ==> 5의 순서가 최소 7번째 라는 뜻
 	for (i = n - 1; i >= 0; i--) b[--f[a[i]]] = a[i];	// a[1]이 4 이면 f[4]에 저장되어 있는 0 ~ 4 까지의 개수를 확인하고 개수 - 1 의 인덱스에 a[i] 값을 집어넣는다
 	for (i = 0; i < n; i++) a[i] = b[i];

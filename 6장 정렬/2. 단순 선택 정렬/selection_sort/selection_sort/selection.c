@@ -15,7 +15,6 @@ void selection(int a[], int n)
 	}
 }
 
-
 void selection2(int a[], int n)
 {
 	for (int i = 0; i < n - 1; i++) {
